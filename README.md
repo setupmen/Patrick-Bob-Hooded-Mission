@@ -1,2 +1,4 @@
-# Patrick-Bob-Hooded-Mission
-Videojuego de plataformas y desplazamiento lateral
+# Patrick Bob: Hooded Mission
+
+## Librerias utilizadas
+ * CustomListeners de Ohmiosmega
