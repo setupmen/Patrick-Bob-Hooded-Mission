@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<levels>
+	<level height="0.0" id="0" width="3000.0" x="0.0" y="0.0">
+		<platform color="-16777216" height="20.0" id="0"
+			width="1000.0" x="0.0" y="600.0" />
+		<platform color="-16776961" height="20.0" id="0"
+			width="2000.0" x="1000.0" y="570.0" />
+	</level>
+</levels>
