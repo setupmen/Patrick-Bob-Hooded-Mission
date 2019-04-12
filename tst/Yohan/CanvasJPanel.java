@@ -7,7 +7,7 @@ import javax.swing.JPanel;
 
 public class CanvasJPanel extends JPanel implements Runnable {
 	
-	ArrayList<ProjectileAnimationThread> bullets = new ArrayList<>();
+	private ArrayList<ProjectileAnimationThread> bullets;
 
 	public CanvasJPanel(ArrayList<ProjectileAnimationThread> bullets) {
 		this.bullets = bullets;
@@ -24,7 +24,6 @@ public class CanvasJPanel extends JPanel implements Runnable {
 		super.paint(g);
 		
 		for (ProjectileAnimationThread projectileAnimationThread : bullets) {
-			System.out.println("pa");
 			projectileAnimationThread.draw(g);
 		}
 		
