@@ -5,7 +5,7 @@ import java.util.Random;
 
 import javax.swing.JFrame;
 
-public class TestRunner {
+public class TestProjectileThread {
 
 	public static void main(String[] args) {
 		
@@ -14,7 +14,7 @@ public class TestRunner {
 		
 		for (int i = 0; i < 10; i++) {
 			list.add(new  ProjectileAnimationThread(600, rnd.nextInt(500)+ 100, 
-					100, 70, 0, null, rnd.nextInt(10)+3, rnd.nextInt(50)));
+					100, 70, 0, null, rnd.nextInt(10)+3, rnd.nextInt(20)+8));
 		}
 		
 		JFrame frame = new JFrame("Test Projectile");
