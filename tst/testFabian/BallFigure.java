@@ -11,6 +11,6 @@ public class BallFigure extends Figure{
 	@Override
 	public void drawFigure() {
 		this.graphics.setColor(Color.CYAN);
-		this.graphics.fillOval((int)(this.x + (this.size/2)), (int)(this.y + (this.size/2)), (int)this.size, (int)this.size);
+		this.graphics.drawOval((int)(this.x - (this.size/2)), (int)(this.y - (this.size/2)), (int)this.size, (int)this.size);
 	}
 }

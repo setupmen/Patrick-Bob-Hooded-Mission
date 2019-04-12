@@ -14,6 +14,10 @@ public class TriangleFigure extends Figure{
 	@Override
 	public void drawFigure() {
 		this.graphics.setColor(Color.RED);
-		this.graphics.fillPolygon(xPoint, yPoint, 3);
+		this.graphics.drawPolygon(xPoint, yPoint, 3);
+	}
+	
+	public double calculatePending() {
+		return ((double)(yPoint[0]-yPoint[2])/(double)(xPoint[0]-xPoint[2]));
 	}
 }
